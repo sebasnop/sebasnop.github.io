@@ -32,16 +32,13 @@
             <nav>
                 <ol>
                     <li>
-                        <a href="#">Portafolio</a>
+                        <a href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#">¿Qué hago?</a>
+                        <a href="#proyectos">¿Qué hago?</a>
                     </li>
                     <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Contáctame</a>
+                        <a href="#contacto">Contáctame</a>
                     </li>
                 </ol>
             </nav>
@@ -64,21 +61,28 @@
         </section>
 
         <!--Mis proyectos--->
-        <section>
+        <section id="portafolio">
             <h2>Proyectos Destacados</h2>
             
             <!--Proyecto 1--->
-            <article>
+            <article> 
                 <h3>Lineclass</h3>
                 <h6>Flutter & Figma</h6>
                 <p><small><strong>Fecha: </strong>01/04/2020 - Actualmente</small></p>
-                <p><small><strong>Puedes verlo en: </strong>https://github.com/sebasnop</small></p>
+                <p><small>
+                    <strong>Puedes verlo en: </strong>
+                    <a href="https://github.com/sebasnop" target="_blank">
+                        https://github.com/sebasnop
+                    </a>
+                </small></p>
+                <img src="https://i.ibb.co/kQLGX4h/lineclass.png"
+                    width="300" alt="Diseño de Interfaces de Lineclass"/>
             </article>
 
         </section>
 
         <!--Qué hago--->
-        <section>
+        <section id="proyectos">
             <h2>Proyectos Destacados</h2>
 
             <article>
@@ -94,7 +98,19 @@
 
         </section>
 
-        <section>Sección contacto</section>
+        <section id="contacto">
+            
+            <form action "/subscription">
+
+                <h3>¿Creamos algo juntos?</h3>
+
+                <input type="email" id="email"
+                placeholder="Déjame tu email :3"/>
+                <input type="submit" value="Enviar"/>
+
+            </form>
+
+        </section>
         
         <footer>Footer</footer>
     </body>
