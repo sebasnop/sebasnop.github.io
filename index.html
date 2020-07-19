@@ -19,26 +19,29 @@
     <body>
         
         <!--Menú de la página--->
-        <header>
+        <header class="header">
             <div>
 
             <!--Logo--->
-            <figure>
+            <figure class="logo">
                 <img src="https://i.ibb.co/xsccY6F/sebas-nop.png" 
                 alt="Logo de sebasnop" width="200">
             </figure>
             
             <!--Navegación--->
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="#portafolio">Portafolio</a>
+                        <a class="link" 
+                        href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="#proyectos">¿Qué hago?</a>
+                        <a class="link" 
+                        href="#creaciones">Creaciones</a>
                     </li>
                     <li>
-                        <a href="#contacto">Contáctame</a>
+                        <a class="link" 
+                        href="#contacto">Contáctame</a>
                     </li>
                 </ol>
             </nav>
@@ -47,7 +50,7 @@
         </header>
 
         <!--Presentación--->
-        <section>
+        <section class="hero">
             <h1>
                 Soy Sebastian Valencia
                 <br/>
@@ -61,46 +64,73 @@
         </section>
 
         <!--Mis proyectos--->
-        <section id="portafolio">
+        <section id="portafolio" class="portfolio">
             <h2>Proyectos Destacados</h2>
             
-            <!--Proyecto 1--->
-            <article> 
-                <h3>Lineclass</h3>
-                <h6>Flutter & Figma</h6>
-                <p><small><strong>Fecha: </strong>01/04/2020 - Actualmente</small></p>
-                <p><small>
+            <!--Proyecto Lineclass--->
+            <article class="project"> 
+                <h3 class="project-title">Lineclass</h3>
+                <h6 class="project-tools">Flutter & Figma</h6>
+                <p class="project-date">
+                    <small>
+                    <strong>Fecha: </strong>
+                    01/04/2020 - Actualmente
+                    </small>
+                </p>
+                <p class="project-url">
+                    <small>
                     <strong>Puedes verlo en: </strong>
                     <a href="https://github.com/sebasnop" target="_blank">
                         https://github.com/sebasnop
                     </a>
-                </small></p>
-                <img src="https://i.ibb.co/kQLGX4h/lineclass.png"
+                    </small>
+                </p>
+                <p class="project-description">
+                    Lineclass es una aplicación móvil para conectar a 
+                    estudiantes y profesores mediante cursos, posts 
+                    y contenidos compartidos. Tiene un chat integrado 
+                    para la comunicación entre sus usuarios.
+
+                </p>
+                <figure class="project-imageContainer">
+                    <img class="project-image"
+                    src="https://i.ibb.co/kQLGX4h/lineclass.png"
                     width="300" alt="Diseño de Interfaces de Lineclass"/>
+                </figure>
             </article>
 
         </section>
 
         <!--Qué hago--->
-        <section id="proyectos">
-            <h2>Proyectos Destacados</h2>
+        <section id="creaciones">
+            <h2>Creaciones</h2>
 
-            <article>
+            <article class="creation">
 
-                <figure>
-                    <img src="https://i.ibb.co/5WGbcR9/Infograf-a-1-1.png"
+                <figure class="creation-imageContainer">
+                    <img class="creation-image"
+                    src="https://i.ibb.co/5WGbcR9/Infograf-a-1-1.png"
                     width="300" alt="Infografía de Git"/>
                 </figure>
-                <h3>Infografías</h3>
-                <p>Te explico conceptos complejos de forma sencilla.</p>
-            
+                <h3 class="creation-title">Unfographic</h3>
+                <p class="creation-description">
+                    Te explico conceptos complejos de forma sencilla.
+                </p>
+                <p class="creation-url">
+                    <small>
+                    <strong>Puedes verlo en: </strong>
+                    <a href="https://www.instagram.com/sebas.nop/" target="_blank">
+                        IG: @sebas.nop
+                    </a>
+                    </small>
+                </p>
             </article>
 
         </section>
 
-        <section id="contacto">
+        <section id="contacto" class="contact">
             
-            <form action "/subscription">
+            <form action "/subscription" class="contact-form">
 
                 <h3>¿Creamos algo juntos?</h3>
 
@@ -112,6 +142,6 @@
 
         </section>
         
-        <footer>Footer</footer>
+        <footer class="footer">Footer</footer>
     </body>
 </html>
