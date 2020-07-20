@@ -1,0 +1,37 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Roboto', sans-serif;
+    /*font-weight: 400;*/
+}
+
+.project-details{
+    width: 500px;
+}
+
+.project-imageContainer{
+    width: 500px;
+}
+
+.hero{
+    height: 300px;
+}
+
+.hero,
+.header{
+    background-color: #FCFCFC;
+}
