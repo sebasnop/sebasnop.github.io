@@ -5,8 +5,18 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat Alternates', sans-serif;
 */
 
+/* GLOBALES */
+
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #FCFCFC;
+    margin: 0;
+}
+
+header,
+section{
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 h2,
@@ -16,6 +26,10 @@ h5,
 h6{
     font-family: 'Roboto', sans-serif;
 }
+
+/* ESPECÍFICOS */
+
+/* Header */
 
 .header{
     background-color: #FCFCFC;
@@ -27,6 +41,8 @@ h6{
     text-decoration: none;
     font-weight: 600;
 }
+
+/* Hero */
 
 .hero{
     height: 300px;
@@ -42,6 +58,9 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 35px;
+    margin-top: 0px;
+    margin-right: 400px;
+    margin-left: 20px;
 }
 
 h1 strong{
@@ -56,10 +75,65 @@ h1.hero-expression{
     letter-spacing: 0.1em;
 }
 
+/* Protfolio & Projects */
+
+.portfolio{
+    margin-top: 60px;
+}
+
+/*.portfolio-title{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 35px;
+    letter-spacing: 0.1em;
+}*/
+
+
+.project{
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    background-color: white;
+    display: flex;
+}
+
 .project-details{
     width: 500px;
 }
 
 .project-imageContainer{
     width: 500px;
+}
+
+.project-image{
+    border-radius: 10px;
+}
+
+/* Creations & Creation */
+
+.creations{
+    margin-top: 40px;
+}
+
+.creation-title{
+    display: block;
+}
+
+.creation{
+    border: 1px solid rgb(231, 231, 231);
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    background-color: white;
+}
+
+/* Footer */
+
+.footer{
+    background-color: rebeccapurple;
+    color: white;
+    margin: 20px 0px 0px 0px;
+    padding: 20px 150px;
 }
