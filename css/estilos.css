@@ -90,11 +90,17 @@ h6{
     margin-top: 30px;
 
     background-color: #FCFCFC;
-    background-image: url(https://i.ibb.co/Pm6dg0w/hero-picture.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-size: 400px;
     color: #132333;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-details{
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 h1{
@@ -102,8 +108,6 @@ h1{
     font-weight: 500;
     font-size: 35px;
     margin-top: 0px;
-    margin-right: 400px;
-    margin-left: 20px;
 }
 
 h1 strong{
@@ -112,10 +116,21 @@ h1 strong{
 
 h1.hero-expression{
     margin-top: -60px;
+    margin-bottom: 0px;
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     font-size: 45px;
     letter-spacing: 0.1em;
+}
+
+.hero-imageContainer{
+    width: 38%;
+    margin: 0px;
+}
+
+.hero-image{
+    width: 100%;
+    margin: 0px;
 }
 
 /* Protfolio & Projects */
