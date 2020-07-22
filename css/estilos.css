@@ -6,7 +6,7 @@ font-family: 'Rustico', cursive;
 */
 
 
-/* GLOBALES */
+/* GLOBALES -------------------------------------------------------------------*/
 
 @font-face{
     font-family: Rustico;
@@ -53,10 +53,10 @@ p{
 }
 
 
-/* ESPECÍFICOS */
+/* ESPECÍFICOS -------------------------------------------------------------------*/
 
 
-/* Header */
+/* Header ----------------------------------*/
 
 .header{
     padding-top: 20px;
@@ -111,7 +111,7 @@ p{
   }
 
 
-/* Hero */
+/* Hero ----------------------------------*/
 
 .hero{
     height: 300px;
@@ -157,7 +157,7 @@ h1.hero-expression{
 }
 
 
-/* Protfolio & Projects */
+/* Protfolio & Projects ----------------------------------*/
 
 .portfolio{
     padding-top: 30px;
@@ -203,7 +203,7 @@ h1.hero-expression{
 }
 
 
-/* Creations & Creation */
+/* Creations & Creation ----------------------------------*/
 
 .creations{
     margin-top: 20px;
@@ -272,13 +272,19 @@ h1.hero-expression{
   }
 
 
-/* Contacto */
+/* Contacto ----------------------------------*/
 
 .contact{
     padding: 0px 40px;
+    display: flex;
+}
+
+.contact h3 {
+    text-align: center;
 }
 
 .contact-form{
+    margin: 0px 50px 0px 20px;
     display: block;
     width: 400px;
 }
@@ -332,8 +338,56 @@ h1.hero-expression{
     color: white;
 }
 
+.contact-links{
+    margin: 0px 20px 0px 50px;
+    width: 500px;
+}
 
-/* Footer */
+.contact-links p{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-row-links {
+    height: 50px;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 5px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+}
+
+.contact-link.youtube{
+    background-image: url(../images/icon-youtube-color.svg);
+}
+
+.contact-link.instagram{
+    background-image: url(../images/icon-instagram-color.svg);
+}
+
+.contact-link.facebook{
+    background-image: url(../images/icon-facebook-color.svg);
+}
+
+.contact-link.github{
+    background-image: url(../images/icon-github-color.svg);
+}
+
+.contact-link.behance{
+    background-image: url(../images/icon-behance-color.svg);
+}
+
+/* Footer ----------------------------------*/
 
 .footer{
     background-color: #132333;
