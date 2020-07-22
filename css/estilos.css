@@ -5,6 +5,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Rustico', cursive;
 */
 
+
 /* GLOBALES */
 
 @font-face{
@@ -51,7 +52,9 @@ p{
     line-height: 24px;
 }
 
+
 /* ESPECÍFICOS */
+
 
 /* Header */
 
@@ -107,6 +110,7 @@ p{
     color: white;
   }
 
+
 /* Hero */
 
 .hero{
@@ -152,6 +156,7 @@ h1.hero-expression{
     letter-spacing: 0.1em;
 }
 
+
 /* Protfolio & Projects */
 
 .portfolio{
@@ -196,6 +201,7 @@ h1.hero-expression{
     margin: 0px;
     width: 320px;
 }
+
 
 /* Creations & Creation */
 
@@ -264,6 +270,67 @@ h1.hero-expression{
     background-color: #7C7DF0;
     color: white;
   }
+
+
+/* Contacto */
+
+.contact{
+    padding: 0px 40px;
+}
+
+.contact-form{
+    display: block;
+    width: 400px;
+}
+
+.contact-form input{
+    border: #E7E7E7 solid 1px;
+    border-radius: 20px;
+
+    width: 400px;
+    font-size: 12pt;
+
+    padding: 0px 30px;
+    margin-bottom: 10px;
+    
+    box-sizing: border-box;
+}
+
+#email{
+    height: 45px;
+    font: 400 15px "Montserrat";
+}
+
+#message{
+    height: 100px;
+    font: 400 15px "Montserrat";
+}
+
+.contact-form input:hover{
+    border: gray solid 1px;
+    width: 400px;
+}
+
+.contact-form button{
+    background-color: #2F4F80;
+    border-radius: 50px;
+    color: #FCFCFC;
+    height: 45px;
+    width: 400px;
+    font: 400 26px "Bebas Neue";
+    letter-spacing: 0.2em;
+
+    border-style: none;
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.contact-form button:hover{
+    background-color: #7C7DF0;
+    color: white;
+}
 
 
 /* Footer */
